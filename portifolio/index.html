@@ -1,66 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio Julio Souza </title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variaveis.css">
+    <link rel="stylesheet" href="src/css/menu.css">
     <link rel="stylesheet" href="src/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#minhas Redes">Minhas Redes</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header-container">
+            <a href="/">
+                <h1 class="logo"> Meu Portifólio Julio Souza </h1>
+            </a>
+            <nav>
+                <input type="checkbox" id="menu-hamburguer" />
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section id="banner">
         <h1>Bem-vindo Olá, meu nome é Julio Souza e sou um programador front-end iniciante.</h1>
-        <p> Atualmente, estou focado em aprender as tecnologias e ferramentas mais recentes para criar experiências web incríveis. Meu objetivo é contribuir para projetos desafiadores e crescer minha carreira na área de desenvolvimento de software.
+        <p> Atualmente, estou focado em aprender as tecnologias e ferramentas mais recentes para criar experiências web
+            incríveis. Meu objetivo é contribuir para projetos desafiadores e crescer minha carreira na área de
+            desenvolvimento de software.
 
-            Tenho experiência em HTML, CSS e JavaScript, e estou aprendendo novas bibliotecas e frameworks, como React e Vue.js, para criar interfaces de usuário mais dinâmicas e interativas. Além disso, estou me familiarizando com ferramentas de gerenciamento de pacotes, como npm e yarn, e plataformas de desenvolvimento, como o Visual Studio Code.
-            
-            Tenho um forte interesse em design de interface do usuário e estou sempre buscando maneiras de melhorar a experiência do usuário. Sou apaixonado por resolver problemas e estou sempre procurando maneiras de melhorar minha habilidade em resolver problemas de forma eficiente.
-            
-            Estou aberto a novas oportunidades e estou animado para trabalhar em projetos desafiadores e colaborar com outros desenvolvedores para criar soluções de software incríveis. Se você estiver procurando por um programador front-end com um forte desejo de aprender e crescer, entre em contato comigo para discutirmos como posso contribuir para sua equipe.</p>
-    </section>
+            Tenho experiência em HTML, CSS e JavaScript, e estou aprendendo novas bibliotecas e frameworks, como React e
+            Vue.js, para criar interfaces de usuário mais dinâmicas e interativas. Além disso, estou me familiarizando
+            com ferramentas de gerenciamento de pacotes, como npm e yarn, e plataformas de desenvolvimento, como o
+            Visual Studio Code.
 
-    <section id="projetos">
-        <h2>Meus Projetos</h2>
-        <div class="projeto">
-            <a href="https://juliosouzaads.github.io/Portifolio-Barber-Close/" target="_blank">
-                <img src="src/images/1_BgVNlXW6I6_1bWr8m8Ypsg.png" alt="Projeto 1">
-                <h3>Projeto 1</h3>
-            </a>
-        </div>
-        <div class="projeto">
-            <a href="https://juliosouzaads.github.io/Api_GitHub/ " target="_blank">
-                <img src="https://user-images.githubusercontent.com/98895165/218859259-c92ef79c-b84f-48b5-96d0-c106268add9f.png" alt="Projeto 2">
-                <h3>Projeto 2</h3>
-            </a>
-        </div>
-        <div class="projeto">
-            <a href="https://juliosouzaads.github.io/Portifolio-Barbearia-Shopp/" target="_blank">
-                <img src="https://user-images.githubusercontent.com/98895165/212253669-2b6fd90a-a5d7-4bff-9de0-f8948a03954b.png" alt="Projeto 3">
-                <h3>Projeto 3</h3>
-            </a>
-        </div>
-        <div class="projeto">
-            <a href="https://juliosouzaads.github.io/API-Gerador-Conselhos/" target="_blank">
-                <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1647734576/Screenshots/we2rf48343vqxftzdfvx.jpg" alt="Projeto 4">
-                <h3>Projeto 4</h3>
-            </a>
-        </div>
+            Tenho um forte interesse em design de interface do usuário e estou sempre buscando maneiras de melhorar a
+            experiência do usuário. Sou apaixonado por resolver problemas e estou sempre procurando maneiras de melhorar
+            minha habilidade em resolver problemas de forma eficiente.
+
+            Estou aberto a novas oportunidades e estou animado para trabalhar em projetos desafiadores e colaborar com
+            outros desenvolvedores para criar soluções de software incríveis. Se você estiver procurando por um
+            programador front-end com um forte desejo de aprender e crescer, entre em contato comigo para discutirmos
+            como posso contribuir para sua equipe.</p>
     </section>
 
     <section id="carousel">
@@ -68,45 +66,121 @@
         <div class="carousel">
             <div class="slide">
                 <a href="https://www.linkedin.com/in/julio-souza-0854b9230/">
-                <img src="src/images/1_BgVNlXW6I6_1bWr8m8Ypsg.png" alt="Projeto 1">
-                <h3>Linkedin</h3>
-                <p>Descrição do projeto 1.</p>
+                    <img src="src/images/linkedin.png" alt="Projeto 3">
+                    <h3> Linkedin </h3>
+                    <p>Acesse meu Linkedin</p>
             </div>
             <div class="slide">
-                <a href="https://www.linkedin.com/in/julio-souza-0854b9230/">
-                <img src="src/images/1_BgVNlXW6I6_1bWr8m8Ypsg.png" alt="Projeto 2">
-                <h3>Projeto 2</h3>
-                <p>Descrição do projeto 2.</p>
+                <a href="https://github.com/juliosouzaads">
+                    <img src="src/images/github.png" alt="Projeto 1">
+                    <h3>GitHub Repositorio</h3>
+                    <p>Acesse Meu Repositorio</p>
             </div>
             <div class="slide">
-                <a href="https://www.linkedin.com/in/julio-souza-0854b9230/">
-                <img src="src/images/1_BgVNlXW6I6_1bWr8m8Ypsg.png" alt="Projeto 3">
-                <h3>Projeto 3</h3>
-                <p>Descrição do projeto 3.</p>
+                <a href="https://www.notion.so/Resumos-DevQuest-47e98376dde24ac598487de0968495d0">
+                    <img src="src/images/notion.png" alt="Projeto 2">
+                    <h3>Notion </h3>
+                    <p>Acesse Alguns De Meus Resumos </p>
             </div>
-            <div class="slide">
-                <a href="https://www.linkedin.com/in/julio-souza-0854b9230/">
-                <img src="src/images/1_BgVNlXW6I6_1bWr8m8Ypsg.png" alt="Projeto 4">
-                <h3>Projeto 4</h3>
-                <p>Descrição do projeto 4.</p>
-            </div>
+
         </div>
     </section>
 
-    <section id="sobre">
-        <h1>Bem-vindo Olá, meu nome é Julio Souza e sou um programador front-end iniciante.</h1>
-        <p> Atualmente, estou focado em aprender as tecnologias e ferramentas mais recentes para criar experiências web incríveis. Meu objetivo é contribuir para projetos desafiadores e crescer minha carreira na área de desenvolvimento de software.
-
-            Tenho experiência em HTML, CSS e JavaScript, e estou aprendendo novas bibliotecas e frameworks, como React e Vue.js, para criar interfaces de usuário mais dinâmicas e interativas. Além disso, estou me familiarizando com ferramentas de gerenciamento de pacotes, como npm e yarn, e plataformas de desenvolvimento, como o Visual Studio Code.
-            
-            Tenho um forte interesse em design de interface do usuário e estou sempre buscando maneiras de melhorar a experiência do usuário. Sou apaixonado por resolver problemas e estou sempre procurando maneiras de melhorar minha habilidade em resolver problemas de forma eficiente.
-            
-            Estou aberto a novas oportunidades e estou animado para trabalhar em projetos desafiadores e colaborar com outros desenvolvedores para criar soluções de software incríveis. Se você estiver procurando por um programador front-end com um forte desejo de aprender e crescer, entre em contato comigo para discutirmos como posso contribuir para sua equipe.</p>
+    <section id="projetos">
+        <h2>Projetos Iniciais </h2>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/Projeto-LandingPage-Berserk/" target="_blank">
+                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/Featured-Why-Guts-Best-Written-Character.jpg"
+                    alt="Projeto 1">
+                <h3>Projeto 1</h3>
+            </a>
+        </div>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/Portifolio-Barber-Close/" target="_blank">
+                <img src="https://i.pinimg.com/originals/e3/d9/38/e3d93898d0a65536c45a3aabe36e5577.jpg" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+            </a>
+        </div>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/Api_GitHub/ " target="_blank">
+                <img src="https://user-images.githubusercontent.com/98895165/218859259-c92ef79c-b84f-48b5-96d0-c106268add9f.png"
+                    alt="Projeto 2">
+                <h3>Projeto 2</h3>
+            </a>
+        </div>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/Portifolio-Barbearia-Shopp/" target="_blank">
+                <img src="https://user-images.githubusercontent.com/98895165/212253669-2b6fd90a-a5d7-4bff-9de0-f8948a03954b.png"
+                    alt="Projeto 3">
+                <h3>Projeto 3</h3>
+            </a>
+        </div>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/API-Gerador-Conselhos/" target="_blank">
+                <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1647734576/Screenshots/we2rf48343vqxftzdfvx.jpg"
+                    alt="Projeto 4">
+                <h3>Projeto 4</h3>
+            </a>
+        </div>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/API-Gerador-Conselhos/" target="_blank">
+                <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1647734576/Screenshots/we2rf48343vqxftzdfvx.jpg"
+                    alt="Projeto 4">
+                <h3>Projeto 4</h3>
+            </a>
+        </div>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/API-Gerador-Conselhos/" target="_blank">
+                <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1647734576/Screenshots/we2rf48343vqxftzdfvx.jpg"
+                    alt="Projeto 4">
+                <h3>Projeto 4</h3>
+            </a>
+        </div>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/API-Gerador-Conselhos/" target="_blank">
+                <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1647734576/Screenshots/we2rf48343vqxftzdfvx.jpg"
+                    alt="Projeto 4">
+                <h3>Projeto 4</h3>
+            </a>
+        </div>
+        <div class="projeto">
+            <a href="https://juliosouzaads.github.io/API-Gerador-Conselhos/" target="_blank">
+                <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1647734576/Screenshots/we2rf48343vqxftzdfvx.jpg"
+                    alt="Projeto 4">
+                <h3>Projeto 4</h3>
+            </a>
+        </div>
     </section>
 
-    <footer>
-        <p>Meu Portfólio &copy; 2023</p>
-    </footer>
+    <footer class="footer" id="contacts">
+        <h4> Portifólio Julio Souza </h4>
 
-    <script src="src/js/index.js"></script>
-</body
+        <nav>
+            <ul>
+                <li><a href="#about"> About </a></li>
+                <li><a href="#services"> Services </a></li>
+                <li><a href="#projects"> Projects </a></li>
+            </ul>
+        </nav>
+
+        <div class="social">
+            <a href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+
+            <a href="">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+
+            <a href="">
+                <i class="fab fa-pinterest"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

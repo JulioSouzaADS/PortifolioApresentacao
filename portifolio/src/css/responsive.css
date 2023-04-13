@@ -1,0 +1,104 @@
+
+@media (max-width:900px) {
+    .header .menu {
+        display: block;
+        align-self: flex-end;
+    }
+
+    .header nav label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header nav ul {
+        display: none;
+    }
+
+    .header input:checked~ul {
+        display: block;
+    }
+
+    .header nav {
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .header nav ul {
+        width: 200px;
+        padding: 20px;
+        background-color: rgba(29, 27, 27, 0.704);
+    }
+
+    .header nav ul a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+
+    .carousel {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+      }
+      
+    .slide {
+      display: inline-block;
+      flex-direction: column;
+      min-width: 80%;
+      min-height: 150px;
+      background-color: red;
+    }
+    
+    .slide img {
+      width: 100%;
+      max-width: 300px;
+      height: 250px;
+      border-radius: 10px;
+    }
+ }
+
+
+@media only screen and (max-width: 725px) {
+
+    #banner h1 {
+      font-size: 24px;
+      margin: 10px;
+    }
+  
+    #banner p {
+      font-size: 14px;
+      margin: 10px;
+    }
+  
+    .projeto img {
+      width: 100%;
+      height: auto;
+      border-width: 3px;
+    }
+  
+    .projeto h1 {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  
+    .projeto h2,
+    .projeto a {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  
+    .projeto img:hover {
+      transition: 0.5s ease-in-out;
+      -xpedu-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(0.8);
+    }
+  }
+
+ 
